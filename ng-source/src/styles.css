@@ -1,0 +1,195 @@
+/* Keyframes */
+@keyframes fadein{
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+@keyframes fadeout{
+  0% {opacity:1;}
+  100% {opacity:0;}
+}
+@keyframes qfadein{
+  0% {opacity:0;}
+  100% {opacity:0.8;}
+}
+/* DOC */
+@font-face {
+    font-family: 'CoustardRegular';
+    src: url('/assets/font/coustard-webfont.eot');
+    src: url('/assets/font/coustard-webfont.ttf') format('truetype'), url('/assets/font/coustard-webfont.eot?#iefix') format('embedded-opentype'),url('/assets/font/coustard-webfont.woff') format('woff'),url('/assets/font/coustard-webfont.svg#CoustardRegular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+html{
+  width:100%;
+  overflow-x: hidden;
+}
+body{
+  width:100%;
+	font-family: 'CoustardRegular', monospace, sans-serif;
+	color:#010101;
+  background: #f0f0f0 url('assets/img/light-bg.gif') repeat;
+}
+a{
+	color:#252525;
+	text-decoration:none !important;
+	transition: all 1s;
+  cursor: pointer;
+}
+a:hover{
+	transition: all 1s;
+	cursor:pointer;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #606060;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #303030;
+}
+.row{
+  opacity:0.9;
+}
+.n_v{
+	display:none;
+}
+.laP{
+  position:absolute;
+	color:#f5f5f5;
+	font-size:50px;
+	transform:rotate(0deg);
+	letter-spacing:-6px;
+	transition:all 0.3s;
+}
+.laP:hover{
+  transform:rotate(-8deg);
+	transition:all 0.5s;
+}
+.info_copy{
+	color:#fefefe;
+	text-shadow: 1px 1px #010101;
+	font-size:9px;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+  position:absolute;
+  right:10px;
+  bottom:0;
+}
+.red{
+  color:#f5f5f5;
+	font-size:26px;
+	position:relative;
+	float:left;
+	height:auto;
+	display:block;
+	overflow:hidden;
+	margin-right:10px;
+	text-align:left;
+}
+#redes{
+	left:15px;
+	bottom:15px;
+	width:200px;
+	height:40px;
+	margin:0;
+  position:relative;
+  top:0;
+  left:15px;
+}
+#twitter{
+	width:11px;
+}
+#vimeo{
+	width:17px;
+}
+#github{
+	width:15px;
+}
+#twitter:hover{
+	color:#00acee;
+	width:92px;
+}
+#vimeo:hover{
+	color:#20b9eb;
+	width:85px;
+}
+#github:hover{
+	color:#c840c6;
+	width:86px;
+}
+/*SUB*/
+.tags{
+	font-size:12px;
+	color:#111;
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+.tags strong{
+	color:#000;
+	font-weight:bold;
+}
+.le_video{
+	float: none;
+	padding:56.25% 0px 0 0px;
+	position:relative;
+	margin:0 auto;
+}
+.le_video iframe{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	padding: 0 30px;
+}
+.datos{
+	padding:0 20px;
+}
+.destacado{
+	font-size:12px;
+	opacity:0.9;
+	margin-bottom:30px;
+}
+.a_desc {
+  color:#101010;
+  opacity:0.95;
+  line-height:26px;
+}
+.a_desc span{
+	font-weight:bold;
+	display:inline-block;
+	margin-right:5px;
+}
+/*DESTACADOS*/
+#des01{
+  background-image:url('/assets/mini/aniuqam.jpg');
+  background-size: cover;
+}
+#des02{
+  background-image:url('/assets/mini/processing.jpg');
+  background-size: cover;
+}
+#des03{
+  background-image:url('/assets/mini/mg.jpg');
+  background-size: cover;
+}
+#des04{
+  background-image:url('/assets/mini/liberoscopio.jpg');
+  background-size: cover;
+}
+#des05{
+  background-image:url('/assets/mini/ebo.jpg');
+  background-size: cover;
+}
+#des06{
+  background-image:url('/assets/mini/nan.jpg');
+  background-size: cover;
+}
+#des07{
+  background-image:url('/assets/mini/qbita.jpg');
+  background-size: cover;
+}

@@ -1,0 +1,35 @@
+<header>
+	<h1>
+		<a href="/">
+			<span class="laP">IB</span>
+		</a>
+	</h1>
+	<nav>
+		<ul class="nav">
+			<li><a title="Audiovisuales" routerLink="/audiovisuales" routerLinkActive="a_active" class="la_a">A</a></li>
+			<li><a title="Visuales" routerLink="/visuales" routerLinkActive="v_active" class="la_v">V</a></li>
+			<li><a title="Textos" routerLink="/textos" routerLinkActive="t_active" class="la_t">T</a></li>
+			<li><a title="Hipertextos" routerLink="/hipertextos" routerLinkActive="h_active" class="la_h">H</a></li>
+			<li><a title="Instalaciones" routerLink="/instalaciones" routerLinkActive="i_active" class="la_i">I</a></li>
+			<li><a title="Performances" routerLink="/performances" routerLinkActive="p_active" class="la_p">P</a></li>
+		</ul>
+	</nav>
+	<a class="ver_mas">+</a>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer>
+	<div id="redes">
+	  <a id="twitter" class="red" href="https://twitter.com/ibuioli" target="_blank" title="Twitter @ibuioli">
+	  	twitter
+	  </a>
+	  <a id="vimeo" class="red" href="https://vimeo.com/ibuioli" target="_blank" title="Vimeo ibuioli">
+	  	vimeo
+	  </a>
+		<a id="github" class="red" href="https://github.com/ibuioli" target="_blank" title="Github ibuioli">
+	  	github
+	  </a>
+	</div>
+	<p class="info_copy">{{copy}}</p>
+</footer>

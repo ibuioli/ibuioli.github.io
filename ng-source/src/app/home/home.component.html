@@ -1,0 +1,69 @@
+<div class="jumbotron" (click)="video.play();">
+  <video #video poster="./assets/img/portada.jpg" autoplay loop muted="true" preload="none" playsinline crossorigin="anonymous">
+    <source src="./assets/videos/intro.webm" type="video/webm">
+    <source src="./assets/videos/intro.mp4" type="video/mp4">
+  </video>
+  <div class="banner_arrow">
+    🢓
+  </div>
+</div>
+
+<div class="container-fluid bg-3">
+  <div class="row bio">
+    <h3 class="col-sm-12 col-lg-12">Bio</h3>
+    <div class="col-sm-12 col-lg-12">
+      <p [innerHTML]="biografia"></p>
+    </div>
+  </div>
+
+  <div class="row bio">
+    <h4 class="col-sm-12 col-lg-12">Proyectos destacados</h4>
+  </div>
+  <div class="row">
+    <div class="col col-sm-4 col-lg-4">
+      <div class="pro-i" id="des01">
+        <a routerLink="/instalaciones/i/aniuqam">
+        </a>
+      </div>
+    </div>
+    <div class="col col-sm-4 col-lg-4">
+      <div class="pro-t" id="des02">
+        <a routerLink="/textos/t/processing">
+        </a>
+      </div>
+    </div>
+    <div class="col col-sm-4 col-lg-4">
+      <div class="pro-h" id="des03">
+        <a routerLink="/hipertextos/h/m-girondo">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col col-sm-3 col-lg-3">
+      <div class="pro-i" id="des04">
+        <a routerLink="/instalaciones/i/liberoscopio">
+        </a>
+      </div>
+    </div>
+    <div class="col col-sm-3 col-lg-3">
+      <div class="pro-i" id="des05">
+        <a routerLink="/instalaciones/i/ebo">
+        </a>
+      </div>
+    </div>
+    <div class="col col-sm-3 col-lg-3">
+      <div class="pro-i" id="des06">
+        <a routerLink="/instalaciones/i/nan">
+        </a>
+      </div>
+    </div>
+    <div class="col col-sm-3 col-lg-3">
+      <div class="pro-h" id="des07">
+        <a routerLink="/hipertextos/h/qbita">
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

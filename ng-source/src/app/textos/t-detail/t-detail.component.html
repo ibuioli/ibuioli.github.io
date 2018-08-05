@@ -1,0 +1,23 @@
+<div class="container-fluid bg-3">
+	<div class="row">
+		<div class="col col-sm-5 col-lg-5">
+			<img [src]="detalles.img">
+		</div>
+
+		<div class="col-sm-7 col-lg-7">
+			<h4>{{detalles.titulo}}</h4>
+			<p class="destacado">
+				{{detalles.destacado}}
+			</p>
+			<p class="a_desc">
+				<span>G&eacute;nero: </span>{{detalles.tecnica}}<br /><br />
+				<span>Descripci&oacute;n: </span>{{detalles.descripcion}}<br /><br />
+				<span>Autor/es: </span>{{detalles.autors}}<br /><br />
+				<span>Leer:</span> <a href="{{detalles.url}}" target="_blank">{{detalles.titulo}}</a><br /><br />
+				<span>Descargar:</span> <a href="{{detalles.url2}}" target="_blank">[.PDF]</a><br /><br />
+				<span>A&ntilde;o: </span>{{detalles.ano}}
+			</p>
+			<p class="tags"><strong>tags: </strong>{{detalles.tags}}</p>
+		</div>
+	</div>
+</div>
