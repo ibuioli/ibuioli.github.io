@@ -1,26 +1,26 @@
 /***********************/
 @keyframes arrowDown {
-  from {bottom:-150px;opacity:0.85;}
-  to {bottom:-180px;opacity:0;}
+  from {bottom:50px;opacity:0.9;}
+  to {bottom:0px;opacity:0;}
 }
 /***********************/
 h3{
-  font-size: 30px;
-  border-left:15px solid #1f618d;
-  padding: 5px 0 5px 20px;
+  font-size: 12px;
+  border-left:10px solid #1f618d;
+  padding-left: 20px;
   opacity:0.9;
   letter-spacing: 2px;
-  text-transform: lowercase;
-  margin-bottom:20px !important;
+  text-transform: uppercase;
 }
 h4{
-  font-size: 20px;
-  border-left:15px solid #1d8348;
-  padding: 5px 0 5px 20px;
-  opacity:0.9;
-  letter-spacing: 2px;
-  text-transform: lowercase;
-  margin-bottom:20px !important;
+  font-size:26px;
+  color:#222;
+  margin-top:10px;
+}
+h5{
+  font-size:18px;
+  color:#222;
+  margin-top:10px;
 }
 hr{
   border: none;
@@ -55,16 +55,18 @@ p{
 }
 .jumbotron .banner_arrow{
   position:absolute;
-  font-size:200px;
-  color:#f3f3f3;
-  text-shadow:1px 1px 2px #010101;
-  opacity:0.85;
-  bottom:-180px;
+  opacity:0.9;
+  bottom:50px;
   left:50%;
-  margin-left:-53px;
+  margin-left:-50px;
   animation: arrowDown 2s infinite;
   animation-timing-function: ease-out;
   user-select: none;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #f3f3f3;
 }
 .row{
   padding:0 30px;
