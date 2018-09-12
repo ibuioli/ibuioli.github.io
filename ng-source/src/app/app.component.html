@@ -3,15 +3,35 @@
 		<a href="/">
 			<span class="laP">IB</span>
 		</a>
+		<div class="subtitle_con d-none d-sm-block">
+			<span class="subtitle" routerLink="/audiovisuales" routerLinkActive="a_show">{{audiovisuales}}</span>
+			<span class="subtitle" routerLink="/visuales" routerLinkActive="v_show">{{visuales}}</span>
+			<span class="subtitle" routerLink="/textos" routerLinkActive="t_show">{{textos}}</span>
+			<span class="subtitle" routerLink="/hipertextos" routerLinkActive="h_show">{{hipertextos}}</span>
+			<span class="subtitle" routerLink="/instalaciones" routerLinkActive="i_show">{{instalaciones}}</span>
+			<span class="subtitle" routerLink="/performances" routerLinkActive="p_show">{{performances}}</span>
+		</div>
 	</h1>
 	<nav>
 		<ul class="nav">
-			<li><a title="Audiovisuales" routerLink="/audiovisuales" routerLinkActive="a_active" class="la_a">A</a></li>
-			<li><a title="Visuales" routerLink="/visuales" routerLinkActive="v_active" class="la_v">V</a></li>
-			<li><a title="Textos" routerLink="/textos" routerLinkActive="t_active" class="la_t">T</a></li>
-			<li><a title="Hipertextos" routerLink="/hipertextos" routerLinkActive="h_active" class="la_h">H</a></li>
-			<li><a title="Instalaciones" routerLink="/instalaciones" routerLinkActive="i_active" class="la_i">I</a></li>
-			<li><a title="Performances" routerLink="/performances" routerLinkActive="p_active" class="la_p">P</a></li>
+			<li>
+				<a title="{{audiovisuales}}" routerLink="/audiovisuales" routerLinkActive="a_active" class="la_a">{{this.a}}</a>
+			</li>
+			<li>
+				<a title="{{visuales}}" routerLink="/visuales" routerLinkActive="v_active" class="la_v">{{this.v}}</a>
+			</li>
+			<li>
+				<a title="{{textos}}" routerLink="/textos" routerLinkActive="t_active" class="la_t">{{this.t}}</a>
+			</li>
+			<li>
+				<a title="{{hipertextos}}" routerLink="/hipertextos" routerLinkActive="h_active" class="la_h">{{this.h}}</a>
+			</li>
+			<li>
+				<a title="{{instalaciones}}" routerLink="/instalaciones" routerLinkActive="i_active" class="la_i">{{this.i}}</a>
+			</li>
+			<li>
+				<a title="{{performances}}" routerLink="/performances" routerLinkActive="p_active" class="la_p">{{this.p}}</a>
+			</li>
 		</ul>
 	</nav>
 	<a class="ver_mas">+</a>

@@ -8,8 +8,8 @@ import { Globals } from '../globals';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  biografia:string;
-  name:string;
+  public biografia:string;
+  public name:string;
 
   constructor(private titleService: Title) {}
 
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit {
     egresando como Técnico y -posteriormente- Licenciado en Artes Multimediales. Ha desarrollado numerosos proyectos de Multimedia así como también escrito artículos y traducido textos del mencionado tema, de entre los que se destaca el manual \"Processing: Un lenguaje al alcance de todos\".<br> \
     Participó de muestras y eventos artísticos en distintos espacios como la sede de Artes Multimediales UNA, el Museo de Calcos y Escultura Comparada Ernesto de la Cárcova, el Instituto Escuela Nacional de Bellas Artes de Montevideo, la Alianza Francesa de Buenos Aires o el Centro de Experimentación del Teatro Colón.<br> \
     Asimismo ha participado de diversos congreso y seminarios, entre los que se destacan el Seminario Internacional NH/T 2014 y 2015, y el 2° Congreso Internacional de las Artes; como así también ha desarrollado con éxito certámenes y becas, tal es el caso de la Beca Estímulo a la Vocación Científica 2015-2016, otorgada por el Consejo Interuniversitario Nacional.<br> \
-    Actualmente se desempeña como programador de diseño interactivo y empresarial en la Cooperativa Moldeo Interactive, especializándose en las tecnologías NodeJS, Angular y Electron; y como investigador independiente en Universidades.";
+    Actualmente se desempeña como programador de diseño interactivo y empresarial en la Cooperativa de Trabajo Moldeo Interactive, especializándose en las tecnologías NodeJS, Angular y Electron; y como investigador independiente en Universidades.";
     /////////////////////
     this.name = Globals.NAME;
   }

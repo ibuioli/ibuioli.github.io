@@ -37,7 +37,7 @@ export class VDetailComponent implements OnInit, OnDestroy {
           break;
          case 's-afiches':
            this.detalles = {
-             titulo: "Sistema de Afiches",
+             titulo: "Sistema de Afiches, película Macbeth",
              destacado: "-Presentado en Muestra del ATAM-IUNA, 2011. Museo Ernesto de la Cárcova, Buenos Aires.",
              tecnica: "Fotografía, Collage, Ilustración, Cómic",
              descripcion: "Utilizando la película Macbeth de Roman Polanski, la propuesta se reduce a la producción de cuatro afiches con distintas técnicas gráficas. Realizado para la materia Proyecto Visual 2 de la carrera Artes Multimediales.",
