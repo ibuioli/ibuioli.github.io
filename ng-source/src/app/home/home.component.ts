@@ -9,6 +9,7 @@ import { Globals } from '../globals';
 })
 export class HomeComponent implements OnInit {
   biografia:string;
+  name:string;
 
   constructor(private titleService: Title) {}
 
@@ -21,6 +22,7 @@ export class HomeComponent implements OnInit {
     Asimismo ha participado de diversos congreso y seminarios, entre los que se destacan el Seminario Internacional NH/T 2014 y 2015, y el 2° Congreso Internacional de las Artes; como así también ha desarrollado con éxito certámenes y becas, tal es el caso de la Beca Estímulo a la Vocación Científica 2015-2016, otorgada por el Consejo Interuniversitario Nacional.<br> \
     Actualmente se desempeña como programador de diseño interactivo y empresarial en la Cooperativa Moldeo Interactive, especializándose en las tecnologías NodeJS, Angular y Electron; y como investigador independiente en Universidades.";
     /////////////////////
+    this.name = Globals.NAME;
   }
 
 }
