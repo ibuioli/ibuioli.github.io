@@ -1,12 +1,7 @@
 <div class="container-fluid bg-3">
 	<div class="row">
-      <div *ngFor="let img of imgs; let i = index">
-        <div *ngIf="detalles.img % 4 == 0" class="cimg col-sm-3">
-          <a href="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" target="_blank">
-            <img src="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" />
-          </a>
-        </div>
-        <div *ngIf="detalles.img % 5 == 0" class="cimg col-sm-2 col-half-offset">
+    <div *ngFor="let img of imgs; let i = index" [ngClass]="{'col-sm-3': detalles.img % 4 == 0, 'col-sm-2 col-half-offset': detalles.img % 5 == 0}">
+        <div class="cimg col-sm-12">
           <a href="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" target="_blank">
             <img src="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" />
           </a>

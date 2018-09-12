@@ -1,16 +1,17 @@
-/* Keyframes */
-@keyframes fadein{
-  0% {opacity:0;}
-  100% {opacity:1;}
-}
-@keyframes fadeout{
-  0% {opacity:1;}
-  100% {opacity:0;}
-}
-@keyframes qfadein{
-  0% {opacity:0;}
-  100% {opacity:0.8;}
-}
+/* Imports */
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+/* Vars */
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
 /* DOC */
 @font-face {
     font-family: 'CoustardRegular';
@@ -147,6 +148,7 @@ a:hover{
 	padding: 0 30px;
 }
 .datos{
+  margin-top:30px;
 	padding:0 20px;
 }
 .destacado{

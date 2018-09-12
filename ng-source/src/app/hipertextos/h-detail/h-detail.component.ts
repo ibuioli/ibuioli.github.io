@@ -37,7 +37,7 @@ export class HDetailComponent implements OnInit, OnDestroy {
             titulo: "Digicenosis",
             destacado: "",
             tecnica: "",
-            descripcion: "Entorno web de ecosistemas digitales. El usuario descubre una serie de experiencias sensitivas a cargo de un grupo de criaturas virtuales que nacen, se desarrollan, y mueren. Creado con P5 y P5js en un entorno de trabajo de HTML5, CSS3 y JavaScript (jQuery).",
+            descripcion: "Entorno web de ecosistemas digitales. El usuario descubre una serie de experiencias sensitivas a cargo de un grupo de criaturas virtuales que nacen, se desarrollan, y mueren. Creado con Processing y ProcessingJS en un entorno de trabajo de HTML5, CSS3 y JavaScript (jQuery).",
             autors: "Ignacio Buioli",
             ano: "2012",
             tags: "web, vida, arficial, digital, ecosistema",
