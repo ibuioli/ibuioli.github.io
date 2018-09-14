@@ -33,6 +33,90 @@ export class TDetailComponent implements OnInit, OnDestroy {
             img: "assets/cont/mg-paper.jpg"
           };
          break;
+       case 'dialogo-relacional':
+         this.detalles = {
+           titulo: "Diálogo Relacional, un Bloque de Multimedia",
+           destacado: "",
+           tecnica: "Artículo académico",
+           descripcion: "Arlindo Machado define a los medios artísticos como un sistema de círculos en contacto. Declara que deben ser mirados como círculos de densidad variable, donde el centro más oscuro sea la 'especificidad' del medio. No obstante, Machado hace bien en no interesarse por los 'núcleos' más duros, poniendo el ojo en los espacios más blandos: los de ínter-conexión. Las Artes Multimediales se generan a partir de esos espacios y luego hacen su propio proceso en contramano, culminando en un solo punto sólido y específico. Pero el hecho de que las disciplinas artísticas nazcan en los grises no es un proceso propio de la modernidad y las vanguardias. En contadas ocasiones, muchas pinturas del arte parietal aprovechaban la morfología natural de la cueva o incluso la implementación de sombras como parte de la representación (una suerte de 'proyección' primitiva).",
+           autors: "Ignacio Buioli",
+           ano: "2015",
+           tags: "multimedia, bloque",
+           url: "https://www.academia.edu/37402045/Di%C3%A1logo_Relacional_un_bloque_de_Multimedia",
+           url2: "./assets/pdf/buioli_ignacio-dialogo_relacional.pdf",
+           img: "assets/cont/dialogo-relacional.jpg"
+         };
+        break;
+       case 'mente-interna':
+         this.detalles = {
+           titulo: "Mente Interna",
+           destacado: "",
+           tecnica: "Artículo académico",
+           descripcion: "La memoria involucrada en la experiencia artística",
+           autors: "Ignacio Buioli",
+           ano: "2015",
+           tags: "multimedia, tiempo, interna",
+           url: "https://www.academia.edu/37402035/Mente_Interna_La_memoria_involucrada_en_la_experiencia_art%C3%ADstica",
+           url2: "./assets/pdf/buioli_ignacio-mente_interna.pdf",
+           img: "assets/cont/mente-interna.jpg"
+         };
+        break;
+       case 'limites-de-cristal':
+         this.detalles = {
+           titulo: "Límites de Cristal",
+           destacado: "",
+           tecnica: "Artículo académico",
+           descripcion: "Sobre Corazón de Cristal de Werner Herzog en el concepto filosófico del Tiempo",
+           autors: "Ignacio Buioli",
+           ano: "2014",
+           tags: "multimedia, tiempo",
+           url: "https://www.academia.edu/37402029/L%C3%ADmites_de_Cristal_Sobre_Coraz%C3%B3n_de_Cristal_de_Werner_Herzog_en_el_concepto_filos%C3%B3fico_del_Tiempo",
+           url2: "./assets/pdf/buioli_ignacio-limites_de_cristal.pdf",
+           img: "assets/cont/limites-de-cristal.jpg"
+         };
+        break;
+       case 'el-tiempo-en-la-multimedia':
+         this.detalles = {
+           titulo: "El Tiempo en la Multimedia",
+           destacado: "",
+           tecnica: "Artículo académico",
+           descripcion: "Serie de textos en la búsqueda de una reflexión sobre la utilización del tiempo en distintos formatos, con vistas en comprender el fenómeno temporal en las Artes Multimediales. Escritos durante el año 2014.",
+           autors: "Ignacio Buioli",
+           ano: "2014",
+           tags: "multimedia, tiempo",
+           url: "https://www.academia.edu/37401887/El_Tiempo_en_la_Multimedia",
+           url2: "./assets/pdf/buioli_ignacio-el_tiempo_en_la_multimedia.pdf",
+           img: "assets/cont/el-tiempo-en-la-multimedia.jpg"
+         };
+        break;
+       case 'el-cine-de-las-afueras':
+         this.detalles = {
+           titulo: "El Cine de las Afueras",
+           destacado: "",
+           tecnica: "Técnico",
+           descripcion: "Sin alejarnos muchos de lo que será su intensa producción audiovisual, podemos comenzar hablando de la infancia del gran director de cine Werner Herzog. Nacido en 1942, lógicamente alemán, creció muy pobre, rodeado de hermanos y hermanastros. Durante muchos años, vivió en un ambiente alejado de las grandes ciudades, con lo cual su contacto con la naturaleza y sus ideas acerca de la industria ya fueron forjándose desde temprana edad.[...]",
+           autors: "Ignacio Buioli",
+           ano: "2014",
+           tags: "cine, herzog",
+           url: "https://www.academia.edu/37403653/El_Cine_de_las_Afueras_An%C3%A1lisis_sobre_la_obra_de_Werner_Herzog",
+           url2: "./assets/pdf/buioli_ignacio-el_cine_de_las_afueras.pdf",
+           img: "assets/cont/el-cine-de-las-afueras.jpg"
+         };
+        break;
+       case 'un-lenguaje-muchos-medios':
+         this.detalles = {
+           titulo: "Un Lenguaje, Muchos Medios",
+           destacado: "",
+           tecnica: "Artículo académico",
+           descripcion: "Con el advenimiento de los nuevos medios, la informática y la electrónica al alcance de todos, comienzan a consolidarse nuevos métodos aplicados al desarrollo artístico. La disciplinas tradicionales comienzan a generar interdisciplinas por la expansión de sus universos de producción. Y en el medio un arte sin respuesta, un arte que quizás no sea arte. La multimedia se pierde en los matices de las disciplinas artísticas, convirtiéndose en poco menos que una herramienta. Estas líneas tienen como objetivo buscar la consolidación de la multimedia como un lenguaje artístico, reflexionando acerca de su relación con el resto de los lenguajes.",
+           autors: "Ignacio Buioli",
+           ano: "2014",
+           tags: "lenguaje, arte, multimedia, medio",
+           url: "https://www.academia.edu/37403671/Un_Lenguaje_Muchos_Medios",
+           url2: "./assets/pdf/buioli_ignacio-un_lenguaje_muchos_medios.pdf",
+           img: "assets/cont/un-lenguaje-muchos-medios.jpg"
+         };
+        break;
         case 'processing':
           this.detalles = {
             titulo: "Processing: Un Lenguaje al Alcance de Todos",
