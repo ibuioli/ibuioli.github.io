@@ -11,7 +11,7 @@ h4{
 .row{
 	padding:0 30px;
 }
-.col img{
+.col-12 img{
 	width:100%;
 }
 a:hover{

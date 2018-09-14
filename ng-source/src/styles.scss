@@ -30,11 +30,15 @@ body{
 	color:#010101;
   background: #f0f0f0 url('assets/img/light-bg.gif') repeat;
 }
+h1, h2, h3, h4, h5, h6 {
+  color: #111 !important;
+}
 a{
 	color:#252525;
 	text-decoration:none !important;
 	transition: all 1s;
   cursor: pointer;
+  outline:none;
 }
 a:hover{
 	transition: all 1s;
