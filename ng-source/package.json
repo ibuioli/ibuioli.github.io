@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --build-optimizer --output-hashing=none && npm run pos:build",
+    "build": "ng build --prod --aot --build-optimizer --output-hashing=none && npm run pos:build",
     "pos:build": "cp -a dist/. ../ && rm -rf dist && cd .. && cp -f index.html 404.html",
     "test": "ng test",
     "lint": "ng lint",
