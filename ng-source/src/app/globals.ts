@@ -1,6 +1,8 @@
 export class Globals{
   public static NAME: string = "Ignacio Buioli";
   /////////////////////////////////////////////////////
+  public static DESC: string = "Portfolio Personal de Ignacio Buioli, Licenciado en Artes Multimediales.";
+  /////////////////////////////////////////////////////
   public static A: string = "A";
   public static AUDIOVISUALES: string = "udiovisuales";
   public static V: string = "V";

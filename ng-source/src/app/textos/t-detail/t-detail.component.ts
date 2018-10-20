@@ -2,6 +2,7 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Title } from '@angular/platform-browser';
 import { Detalles } from '../../detalles';
+import { SeoService } from '../../seo.service';
 
 @Component({
   selector: 'app-t-detail',
@@ -13,7 +14,7 @@ export class TDetailComponent implements OnInit, OnDestroy {
   private sub: any;
   public detalles: Detalles;
 
-  constructor(private route: ActivatedRoute, private titleService: Title) { }
+  constructor(private route: ActivatedRoute, private titleService: Title, private seo: SeoService) { }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
@@ -149,6 +150,12 @@ export class TDetailComponent implements OnInit, OnDestroy {
 
       //Cambiar Título
       this.titleService.setTitle(document.title+": "+this.detalles.titulo);
+      //Cambiar SEO
+      this.seo.generateTags({
+        title: document.title,
+        description: this.detalles.descripcion,
+        slug: 't/'+params['id']
+      })
     });
   }
 

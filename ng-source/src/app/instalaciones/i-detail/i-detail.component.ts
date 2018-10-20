@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { Title } from '@angular/platform-browser';
 import { Detalles } from '../../detalles';
+import { SeoService } from '../../seo.service';
 
 @Component({
   selector: 'app-i-detail',
@@ -14,7 +15,7 @@ export class IDetailComponent implements OnInit {
   public detalles: Detalles;
   public url: SafeUrl;
 
-  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private titleService: Title) { }
+  constructor(private route: ActivatedRoute, private sanitizer: DomSanitizer, private titleService: Title, private seo: SeoService) { }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
@@ -208,6 +209,12 @@ export class IDetailComponent implements OnInit {
       this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.detalles.url);
       //Cambiar Título
       this.titleService.setTitle(document.title+": "+this.detalles.titulo);
+      //Cambiar SEO
+      this.seo.generateTags({
+        title: document.title,
+        description: this.detalles.descripcion,
+        slug: 'i/'+params['id']
+      })
     });
   }
 

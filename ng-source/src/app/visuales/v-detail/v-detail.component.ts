@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { Title } from '@angular/platform-browser';
 import { Detalles } from '../../detalles';
+import { SeoService } from '../../seo.service';
 
 @Component({
   selector: 'app-v-detail',
@@ -15,7 +16,7 @@ export class VDetailComponent implements OnInit, OnDestroy {
   public ind: number;
   public imgs: any = [];
 
-  constructor(private route: ActivatedRoute, private titleService: Title) { }
+  constructor(private route: ActivatedRoute, private titleService: Title, private seo: SeoService) { }
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
@@ -86,6 +87,12 @@ export class VDetailComponent implements OnInit, OnDestroy {
       }
       //Cambiar Título
       this.titleService.setTitle(document.title+": "+this.detalles.titulo);
+      //Cambiar SEO
+      this.seo.generateTags({
+        title: document.title,
+        description: this.detalles.descripcion,
+        slug: 'v/'+params['id']
+      })
     });
   }
 

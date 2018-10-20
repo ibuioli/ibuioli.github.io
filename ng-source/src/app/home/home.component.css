@@ -36,7 +36,7 @@ p{
 }
 .jumbotron{
   height:100vh;
-  background:#666 url('../../assets/img/gray-bg.gif');
+  background:#666 url('/../../assets/img/gray-bg.gif');
   position: relative;
   box-shadow:inset 0 0 60px rgba(10, 10, 10, 0.65);
   overflow: hidden;
