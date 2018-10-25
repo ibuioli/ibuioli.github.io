@@ -1,3 +1,5 @@
+/**Globals**/
+@import "../globals";
 /***********************/
 @keyframes arrowDown {
   from {bottom:50px;opacity:0.9;}
@@ -97,44 +99,44 @@ p{
   margin-right:1px;
 }
 .pro-a{
-	border-color:#ff233d !important;
+	border-color:$a-color !important;
 }
 .pro-a a:hover{
-  background-color:#ff233d !important;
+  background-color:$a-color !important;
   opacity:0.8 !important;
 }
 .pro-v{
-	border-color:#ffc617 !important;
+	border-color:$v-color !important;
 }
 .pro-v a:hover{
-	background-color:#ffc617 !important;
+	background-color:$v-color !important;
   opacity:0.6 !important;
 }
 .pro-t{
-	border-color:#2093ff !important;
+	border-color:$t-color !important;
 }
 .pro-t a:hover{
-  background-color:#2093ff !important;
+  background-color:$t-color !important;
   opacity:0.6 !important;
 }
 .pro-h{
-	border-color:#2eff3d !important;
+	border-color:$h-color !important;
 }
 .pro-h a:hover{
-	background-color:#2eff3d !important;
+	background-color:$h-color !important;
   opacity:0.6 !important;
 }
 .pro-i{
-	border-color:#d350eb !important;
+	border-color:$i-color !important;
 }
 .pro-i a:hover{
-	background-color:#d350eb !important;
+	background-color:$i-color !important;
   opacity:0.6 !important;
 }
 .pro-p{
-	border-color:#5446d9 !important;
+	border-color:$p-color !important;
 }
 .pro-p a:hover{
-	background-color:#5446d9 !important;
+	background-color:$p-color !important;
   opacity:0.6 !important;
 }

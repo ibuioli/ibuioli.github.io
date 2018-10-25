@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-textos',
   templateUrl: './textos.component.html',
-  styleUrls: ['./textos.component.css']
+  styleUrls: ['./textos.component.scss']
 })
 export class TextosComponent implements OnInit {
 

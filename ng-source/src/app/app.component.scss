@@ -1,3 +1,5 @@
+/**Globals**/
+@import "globals";
 /*KeyFrames*/
 @keyframes accWidth {
 	from {width:0;}
@@ -69,40 +71,40 @@ h1{
 	overflow:hidden;
 }
 .la_a:hover, .a_active{
-	color:#ff233d !important;
+	color:$a-color !important;
 }
 .a_active{
-	border-bottom:8px solid #ff233d !important;
+	border-bottom:8px solid $a-color !important;
 }
 .la_v:hover, .v_active{
-	color:#ffc617 !important;
+	color:$v-color !important;
 }
 .v_active{
-	border-bottom:8px solid #ffc617 !important;
+	border-bottom:8px solid $v-color !important;
 }
 .la_t:hover, .t_active{
-	color:#2093ff !important;
+	color:$t-color !important;
 }
 .t_active{
-	border-bottom:8px solid #2093ff !important;
+	border-bottom:8px solid $t-color !important;
 }
 .la_h:hover, .h_active{
-	color:#2eff3d !important;
+	color:$h-color !important;
 }
 .h_active{
-	border-bottom:8px solid #2eff3d !important;
+	border-bottom:8px solid $h-color !important;
 }
 .la_i:hover, .i_active{
-	color:#d350eb !important;
+	color:$i-color !important;
 }
 .i_active{
-	border-bottom:8px solid #d350eb !important;
+	border-bottom:8px solid $i-color !important;
 }
 .la_p:hover, .p_active{
-	color:#5446d9 !important;
+	color:$p-color !important;
 }
 .p_active{
-	border-bottom:8px solid #5446d9 !important;
+	border-bottom:8px solid $p-color !important;
 }
 .a_show, .v_show, .t_show, .h_show, .i_show, .p_show{
 	display:block !important;
@@ -111,22 +113,22 @@ h1{
   animation-timing-function: ease-out;
 }
 .a_show{
-	border-left:5px solid #ff233d !important;
+	border-left:5px solid $a-color !important;
 }
 .v_show{
-	border-left:5px solid #ffc617 !important;
+	border-left:5px solid $v-color !important;
 }
 .t_show{
-	border-left:5px solid #2093ff !important;
+	border-left:5px solid $t-color !important;
 }
 .h_show{
-	border-left:5px solid #2eff3d !important;
+	border-left:5px solid $h-color !important;
 }
 .i_show{
-	border-left:5px solid #d350eb !important;
+	border-left:5px solid $i-color !important;
 }
 .p_show{
-	border-left:5px solid #5446d9 !important;
+	border-left:5px solid $p-color !important;
 }
 .ver_mas{
   float:right;

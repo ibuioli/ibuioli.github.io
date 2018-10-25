@@ -7,7 +7,7 @@ import { SeoService } from '../../seo.service';
 @Component({
   selector: 'app-h-detail',
   templateUrl: './h-detail.component.html',
-  styleUrls: ['./h-detail.component.css']
+  styleUrls: ['./h-detail.component.scss']
 })
 export class HDetailComponent implements OnInit, OnDestroy {
   private sub: any;

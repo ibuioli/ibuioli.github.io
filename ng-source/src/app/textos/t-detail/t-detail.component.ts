@@ -7,7 +7,7 @@ import { SeoService } from '../../seo.service';
 @Component({
   selector: 'app-t-detail',
   templateUrl: './t-detail.component.html',
-  styleUrls: ['./t-detail.component.css']
+  styleUrls: ['./t-detail.component.scss']
 })
 
 export class TDetailComponent implements OnInit, OnDestroy {

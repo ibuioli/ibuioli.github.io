@@ -8,7 +8,7 @@ import { SeoService } from '../../seo.service';
 @Component({
   selector: 'app-i-detail',
   templateUrl: './i-detail.component.html',
-  styleUrls: ['./i-detail.component.css']
+  styleUrls: ['./i-detail.component.scss']
 })
 export class IDetailComponent implements OnInit {
   public sub: any;

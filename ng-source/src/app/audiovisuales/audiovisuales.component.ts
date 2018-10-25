@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-audiovisuales',
   templateUrl: './audiovisuales.component.html',
-  styleUrls: ['./audiovisuales.component.css']
+  styleUrls: ['./audiovisuales.component.scss']
 })
 export class AudiovisualesComponent implements OnInit {
 

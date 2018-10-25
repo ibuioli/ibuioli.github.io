@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-visuales',
   templateUrl: './visuales.component.html',
-  styleUrls: ['./visuales.component.css']
+  styleUrls: ['./visuales.component.scss']
 })
 export class VisualesComponent implements OnInit {
 

@@ -8,7 +8,7 @@ import { SeoService } from '../../seo.service';
 @Component({
   selector: 'app-a-detail',
   templateUrl: './a-detail.component.html',
-  styleUrls: ['./a-detail.component.css']
+  styleUrls: ['./a-detail.component.scss']
 })
 
 export class ADetailComponent implements OnInit, OnDestroy {

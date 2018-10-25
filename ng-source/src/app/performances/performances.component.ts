@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-performances',
   templateUrl: './performances.component.html',
-  styleUrls: ['./performances.component.css']
+  styleUrls: ['./performances.component.scss']
 })
 export class PerformancesComponent implements OnInit {
 

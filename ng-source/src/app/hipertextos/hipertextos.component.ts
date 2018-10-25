@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-hipertextos',
   templateUrl: './hipertextos.component.html',
-  styleUrls: ['./hipertextos.component.css']
+  styleUrls: ['./hipertextos.component.scss']
 })
 export class HipertextosComponent implements OnInit {
 

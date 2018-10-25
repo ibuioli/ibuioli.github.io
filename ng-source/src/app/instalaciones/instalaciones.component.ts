@@ -6,7 +6,7 @@ import { SeoService } from '../seo.service';
 @Component({
   selector: 'app-instalaciones',
   templateUrl: './instalaciones.component.html',
-  styleUrls: ['./instalaciones.component.css']
+  styleUrls: ['./instalaciones.component.scss']
 })
 export class InstalacionesComponent implements OnInit {
 

@@ -8,7 +8,7 @@ import { SeoService } from '../../seo.service';
 @Component({
   selector: 'app-v-detail',
   templateUrl: './v-detail.component.html',
-  styleUrls: ['./v-detail.component.css']
+  styleUrls: ['./v-detail.component.scss']
 })
 export class VDetailComponent implements OnInit, OnDestroy {
   public sub: any;
