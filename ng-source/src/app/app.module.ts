@@ -28,7 +28,7 @@ import { PDetailComponent } from './performances/p-detail/p-detail.component';
 import { ErrorComponent } from './error/error.component';
 
 //Routers
-import { routes } from './app.router';
+import { AppRouter } from './app.router';
 
 @NgModule({
   declarations: [
@@ -53,7 +53,7 @@ import { routes } from './app.router';
     BrowserModule,
     FormsModule,
     HttpModule,
-    routes,
+    AppRouter,
   ],
   providers: [
     Title

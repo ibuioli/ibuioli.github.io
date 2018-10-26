@@ -1,4 +1,4 @@
-import { ModuleWithProviders } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -23,7 +23,7 @@ import { PDetailComponent } from './performances/p-detail/p-detail.component';
 //Otros
 import { ErrorComponent } from './error/error.component';
 
-export const router: Routes = [
+export const routes: Routes = [
     { path: '', redirectTo: 'portfolio', pathMatch: 'full' },
     { path: '', component: AppComponent },
     { path: 'portfolio', component: HomeComponent },
@@ -49,4 +49,8 @@ export const router: Routes = [
     { path: '**', redirectTo: 'error', }
 ];
 
-export const routes: ModuleWithProviders = RouterModule.forRoot(router);
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRouter { }
