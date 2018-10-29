@@ -2,8 +2,8 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { DomSanitizer, SafeResourceUrl, SafeUrl } from '@angular/platform-browser';
 import { Title } from '@angular/platform-browser';
-import { Detalles } from '../../detalles';
-import { SeoService } from '../../seo.service';
+import { Detalles } from '@core/details';
+import { SeoService } from '@core/seo';
 
 @Component({
   selector: 'app-v-detail',

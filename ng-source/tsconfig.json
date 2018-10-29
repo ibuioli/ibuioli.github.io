@@ -1,7 +1,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "baseUrl": "./",
+    "baseUrl": "src",
+    "paths": {
+      "@core/seo": ["app/core/seo.service"],
+      "@core/globals": ["app/core/globals"],
+      "@core/details": ["app/core/detalles"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,

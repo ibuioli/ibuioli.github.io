@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Globals } from '../globals';
+import { Globals } from '@core/globals';
 
 @Component({
   selector: 'app-error',

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Globals } from '../globals';
-import { SeoService } from '../seo.service';
+import { Globals } from '@core/globals';
+import { SeoService } from '@core/seo';
 
 @Component({
   selector: 'app-hipertextos',
