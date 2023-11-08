@@ -1,5 +1,5 @@
-<div class="jumbotron" (click)="video.play();">
-  <video #video poster="./assets/img/portada.jpg" autoplay loop muted="true" preload="none" playsinline crossorigin="anonymous">
+<div class="jumbotron">
+  <video #video poster="./assets/img/portada.jpg" [autoplay]="true" [muted]="true" [loop]="true" playsinline crossorigin="anonymous">
     <source src="./assets/videos/intro.webm" type="video/webm">
     <source src="./assets/videos/intro.mp4" type="video/mp4">
   </video>
@@ -7,7 +7,7 @@
   </div>
 </div>
 
-<div class="container-fluid bg-3" (click)="video.play();">
+<div class="container bg-3" (click)="video.play();">
   <div class="row bio">
     <h3 class="col-12 col-md-2">Abstract</h3>
     <div class="col-12 col-md-10">
@@ -19,7 +19,7 @@
   <div class="row bio">
     <h3 class="col-12 col-md-2">Contacto</h3>
     <div class="col-12 col-md-10">
-      <h5><a href="mailto:ibuioli@gmail.com">ibuioli@gmail.com</a></h5>
+      <h5><a href="mailto:ibuioli@gmail.com">{{email}}</a></h5>
     </div>
   </div>
 

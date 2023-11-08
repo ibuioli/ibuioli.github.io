@@ -1,7 +1,7 @@
 /* Imports */
-@import '~bootstrap/scss/bootstrap';
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-grid';
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap-reboot';
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
 
 /* Vars */
 $grid-breakpoints: (
@@ -57,7 +57,11 @@ a:hover{
     background: #303030;
 }
 .row{
-  opacity:0.9;
+  opacity:0.95;
+}
+.data-detail{
+  margin-top:120px;
+  min-height:100vh;
 }
 .n_v{
 	display:none;
@@ -75,11 +79,11 @@ a:hover{
 	transition:all 0.5s;
 }
 .info_copy{
-	color:#fefefe;
-	text-shadow: 1px 1px #010101;
-	font-size:9px;
-	opacity:0.8;
-	filter:alpha(opacity=80);
+color:#fefefe;
+text-shadow: 1px 1px #010101;
+font-size:9px;
+opacity:0.8;
+filter:alpha(opacity=80);
   position:absolute;
   right:10px;
   bottom:0;
@@ -105,6 +109,9 @@ a:hover{
   top:0;
   left:15px;
 }
+#linkedin{
+	width:8px;
+}
 #twitter{
 	width:11px;
 }
@@ -113,6 +120,10 @@ a:hover{
 }
 #github{
 	width:15px;
+}
+#linkedin:hover{
+	color:#0a66c2;
+	width:105px;
 }
 #twitter:hover{
 	color:#00acee;

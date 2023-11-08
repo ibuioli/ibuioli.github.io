@@ -120,5 +120,7 @@
       }
     }
   },
-  "defaultProject": "ibuioli"
+  "cli": {
+    "analytics": "dd436948-2e68-42d2-900e-831d0ec6c2bd"
+  }
 }

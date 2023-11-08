@@ -7,7 +7,7 @@ import { Globals } from '@core/globals';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   public name:string;
   public subtitle:string;
   ////////////////
@@ -43,7 +43,7 @@ export class AppComponent {
     this.instalaciones = this.i+Globals.INSTALACIONES;
     this.performances = this.p+Globals.PERFORMANCES;
     ////////////////
-    this.copy ="© "+Globals.NAME+" | 2010 - 2018";
+    this.copy ="© "+Globals.NAME+" | 2010 - 2023";
   }
 
   ngOnInit(){

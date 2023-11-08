@@ -1,7 +1,7 @@
-<div class="container-fluid bg-3">
+<div class="container bg-3 data-detail">
 	<div class="row">
     <div *ngFor="let img of imgs; let i = index" [ngClass]="{'col-sm-3': detalles.img % 4 == 0, 'col-sm-2 col-half-offset': detalles.img % 5 == 0}">
-        <div class="cimg col-sm-12">
+        <div class="cimg col-12">
           <a href="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" target="_blank">
             <img src="assets/cont/galeria/{{detalles.url}}_{{i+1}}.jpg" />
           </a>
@@ -10,7 +10,7 @@
 	</div>
 
 	<div class="row datos">
-		<div class="col-lg-12">
+		<div class="col-12">
 			<h4>{{detalles.titulo}}</h4>
 			<p class="destacado">
 				{{detalles.destacado}}

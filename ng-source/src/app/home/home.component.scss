@@ -58,17 +58,17 @@ p{
 .jumbotron .banner_arrow{
   position:absolute;
   opacity:0.9;
-  bottom:50px;
+  bottom:30px;
   left:50%;
-  margin-left:-50px;
+  margin-left:-30px;
   animation: arrowDown 2s infinite;
   animation-timing-function: ease-out;
   user-select: none;
   width: 0;
   height: 0;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  border-top: 50px solid #f3f3f3;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #f3f3f3;
 }
 .row{
   padding:0 30px;

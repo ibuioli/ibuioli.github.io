@@ -1,5 +1,6 @@
 export class Globals{
   public static NAME: string = "Ignacio Buioli";
+  public static EMAIL: string = "ibuioli@gmail.com"; 
   /////////////////////////////////////////////////////
   public static DESC: string = "Portfolio Personal de Ignacio Buioli, Licenciado en Artes Multimediales.";
   /////////////////////////////////////////////////////
